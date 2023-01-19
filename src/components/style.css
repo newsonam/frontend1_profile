@@ -1,0 +1,111 @@
+.header-wrapper{
+    background-color: blue;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:5px;
+}
+.searchicon{
+    color:white;
+    font-size: 1.5rem;
+}
+.btn-green{
+    background-color: #90EE90;
+    border-color: #90EE90;
+    color: black;
+    padding:5px 15px;
+    margin-right: 5px;
+    
+}
+.red{
+    color:red;
+}
+.btn-red{
+    background-color: red;
+    border-color: red;
+    color: white;
+    padding:5px 15px;
+}
+.main-wrapper{
+    display:flex;
+    
+    height:800px;
+}
+.bar-icon{
+    color:white;
+}
+.icon-btn{
+    display:flex;
+    gap:13rem;
+    align-items: center;
+}
+
+.first{
+    width:40px;
+    background-color: skyblue;
+}
+.second{
+    width:65%;
+    border:1px solid black;
+    text-align:left;
+    padding:20px;
+}
+.gender{
+    text-align: center;
+}
+.userid{
+    margin-top:2.5rem;
+    line-height: 0;
+}
+.maindata{
+    margin-top:2.5rem;
+    line-height: 0.4rem;
+}
+.desc{
+    margin-top:2.5rem;
+    line-height:0.4rem;
+}
+.userimage{
+    margin-top:3rem;
+    width:80%;
+    height:100%;
+}
+.third{
+    width:35%;
+    border:1px solid black;
+    padding:10px;
+    
+    bottom:0;
+    position: sticky;
+    top: 0;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    
+}
+.event{
+    text-align: left;
+    margin-top:0.5rem;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom:10px;
+    position: sticky;
+}
+.grey{
+    background-color: #d3d3d3;
+    cursor:pointer;
+}
+.grey:focus{
+    background-color: grey;
+    color:white;
+}
+
+.person{
+text-align: left;
+}
+.userdata-wrap{
+    display:flex;
+    justify-content: between;
+}
